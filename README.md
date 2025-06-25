@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# Het witte bolletje
 
-## Project info
+## Overzicht
+Deze website is het moderne, interactieve platform voor banketbakkerij "Het witte bolletje". Met de nieuwste webtechnologieën biedt het een aantrekkelijke gebruikerservaring, vloeiende animaties en een overzichtelijke, toegankelijke interface. De site toont het exclusieve assortiment, informatie over de bakkerij en contactmogelijkheden.
 
-**URL**: https://lovable.dev/projects/3a3c8608-caef-4125-9e5f-2acac3e83f50
+## Belangrijkste features
+- **Responsief ontwerp:** Geoptimaliseerd voor mobiel, tablet en desktop
+- **Moderne UI-componenten:** Gebouwd met React, gestyled met Tailwind CSS, Shadcn en Radix
+- **Snel & soepel:** Direct laden en vloeiende interacties dankzij Vite
+- **Duidelijke structuur:** Overzichtelijke navigatie en toegankelijke content
+- **Dynamisch assortiment:** Producten en afbeeldingen eenvoudig aan te passen
 
-## How can I edit this code?
+## Technologieën
+### Frontend
+- React 18
+- Vite 5
+- TypeScript
+- Tailwind CSS 3
+- Shadcn UI
+- Radix UI
 
-There are several ways of editing your application.
+### Development tools
+- Visual Studio Code
+- Git & GitHub
+- NPM
 
-**Use Lovable**
+## Installatie
+### Vereisten
+- Node.js (LTS-versie)
+- npm (standaard bij Node.js)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3a3c8608-caef-4125-9e5f-2acac3e83f50) and start prompting.
+### Stappen
+1. Clone de repository:
+   ```bash
+   git clone <repository-url>
+   cd witte-bolletje
+   ```
+2. Installeer de dependencies:
+   ```bash
+   npm install
+   ```
+3. Start de ontwikkelserver:
+   ```bash
+   npm run dev
+   ```
+4. Open je browser en ga naar [http://localhost:8080](http://localhost:8080)
 
-Changes made via Lovable will be committed automatically to this repo.
+## Configuratie
+- Afbeeldingen kun je toevoegen in `public/lovable-uploads/` en direct gebruiken in de code.
+- Tailwind CSS-configuratie vind je in `tailwind.config.ts`.
+- Vite-configuratie vind je in `vite.config.ts`.
 
-**Use your preferred IDE**
+## Beschikbare scripts
+| Command         | Omschrijving                        |
+|-----------------|-------------------------------------|
+| npm run dev     | Start de ontwikkelserver            |
+| npm run build   | Maakt een productie-build           |
+| npm run preview | Bekijkt de productie-build lokaal   |
+| npm run lint    | Controleert de codekwaliteit        |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Projectstructuur
+```
+witte-bolletje/
+├── public/              # Statische assets (favicon, afbeeldingen)
+│   └── lovable-uploads/ # Productafbeeldingen
+├── src/
+│   ├── pages/           # Pagina-componenten (Index, Assortiment, Contact)
+│   ├── components/      # Herbruikbare React-componenten
+│   └── ...
+├── tailwind.config.ts   # Tailwind configuratie
+├── vite.config.ts       # Vite configuratie
+└── ...
 ```
 
-**Edit a file directly in GitHub**
+## Bijdragen
+Bijdragen zijn welkom! Maak gerust een Pull Request. Voor grote wijzigingen, open eerst een issue om je voorstel te bespreken.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Licentie
+Dit project is gelicentieerd onder de ISC-licentie.
 
-**Use GitHub Codespaces**
+## Contact
+Voor vragen of suggesties, open een issue in de GitHub-repository.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3a3c8608-caef-4125-9e5f-2acac3e83f50) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Dankwoord
+- Alle leveranciers van de gebruikte open source tools
+- Iedereen die heeft bijgedragen aan dit project
