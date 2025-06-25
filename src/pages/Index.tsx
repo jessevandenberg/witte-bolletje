@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navigation from '../components/Navigation';
 
@@ -31,8 +30,8 @@ const Index = () => {
           
           <div className="relative">
             <img
-              src="/lovable-uploads/0e6c9691-9ed6-4af6-8c62-159a24ebd1e5.png"
-              alt="Verse broden en bakkerij producten"
+              src="/lovable-uploads/broodjes.jpeg"
+              alt="Broodjes van Het witte bolletje"
               className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
